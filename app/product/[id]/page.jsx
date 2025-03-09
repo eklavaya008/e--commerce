@@ -3,7 +3,10 @@ import { getProductById } from "@/lib/products"
 import { AddToCartButton } from "@/components/add-to-cart-button"
 
 export default async function ProductPage({ params }) {
-  const product = await getProductById(params.id)
+
+  const { id } = await params;
+  const product = await getProductById(id)
+
 
   if (!product) {
     notFound()
