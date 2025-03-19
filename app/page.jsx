@@ -15,7 +15,7 @@ export default async function Home() {
         <div className="relative h-[400px] w-full overflow-hidden rounded-lg">
           <div className="absolute inset-0 bg-black/50 z-10" />
           <img
-            src="/placeholder.svg?height=400&width=1200"
+            src="https://media.istockphoto.com/id/2155498776/photo/woman-walking-with-shopping-bags-on-city-street.webp?a=1&b=1&s=612x612&w=0&k=20&c=aF9rkTbesDO3X04nP7Xid23BP0or1i5gUfHP-rhw724="
             alt="Fashion collection"
             className="h-full w-full object-cover"
           />
@@ -38,10 +38,10 @@ export default async function Home() {
       <section id="categories" className="mb-16">
         <h2 className="text-3xl font-bold mb-8 text-center">Our Categories</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <CategoryCard title="Men's Collection" image="/placeholder.svg?height=300&width=300" link="/men" />
-          <CategoryCard title="Women's Collection" image="/placeholder.svg?height=300&width=300" link="/women" />
-          <CategoryCard title="Kids Collection" image="/placeholder.svg?height=300&width=300" link="/kids" />
-          <CategoryCard title="Accessories" image="/placeholder.svg?height=300&width=300" link="/accessories" />
+          <CategoryCard title="Men's Collection" image="https://media.istockphoto.com/id/2147687162/photo/empty-mens-clothing-store.webp?a=1&b=1&s=612x612&w=0&k=20&c=B2n2GEBB0OIU0eHiK0gNjOVgS5FZo7uuDpCaBave0Ls=" link="/men" />
+          <CategoryCard title="Women's Collection" image="https://plus.unsplash.com/premium_photo-1664202526559-e21e9c0fb46a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" link="/women" />
+          <CategoryCard title="Kids Collection" image="https://media.istockphoto.com/id/477001758/photo/dressing-closet-with-baby-clothes-arranged-on-hangers.jpg?s=612x612&w=0&k=20&c=Z8V20-BFX9tnN-9bNjbXPYPG7N8aAdxsStsv2XHrJak=" link="/kids" />
+          <CategoryCard title="Accessories" image="https://t3.ftcdn.net/jpg/09/14/82/32/240_F_914823299_RxNXH63dOvIAu9P8vlkxjnoazlYpXNxH.jpg" link="/accessories" />
         </div>
       </section>
 
